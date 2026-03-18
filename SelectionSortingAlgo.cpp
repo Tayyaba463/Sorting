@@ -12,7 +12,7 @@ using namespace std;
        min = i;
          for (int j = 0 + i; j < n; j++){
             
-          if (arr[min] < arr[j]) 
+          if (arr[min] > arr[j]) 
           {
               min = j;
           }
